@@ -5,7 +5,9 @@ namespace TextCorrector {
   class Program {
     static void Main() {
 
-      Dictionary<string, string> errorWords = new Dictionary<string, string>()
+      string directoryPath = "./ErrorFiles";
+      
+      Dictionary<string, string> errorDictionary = new Dictionary<string, string>()
       {
         { "приет", "привет" },
         { "пирвет", "привет" },
